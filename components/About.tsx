@@ -3,6 +3,7 @@ import Image from 'next/image'
 import profilePic from '../public/dre2.jpg'
 import { motion } from 'framer-motion'
 
+
 type Props = {}
 
 const About = (props: Props) => {

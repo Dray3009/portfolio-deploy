@@ -16,17 +16,12 @@ const HireMe = (props: Props) => {
         <h3 className='absolute top-20 uppercase tracking-[10px] text-gray-500 text-2xl'>
             Why Hire Me 
         </h3>
-        <div className='w-full flex space-x-5 p-10 snap-x snap-mandatory overflow-x-scroll'>
+        <div className='w-full flex space-x-5 p-10 snap-x snap-mandatory overflow-x-scroll  scrollbar-track-gray-400/20 scrollbar-thumb-slate-500 scrollbar-thin '>
             <HireMeCard/>
             <HireMeCard1/>
             <HireMeCard2/>
             
             
-            
-            {/* hire me card */}
-            {/* hire me card */}
-            {/* hire me card */}
-            {/* hire me card */}
         </div>
 
     </motion.div>

@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@heroicons/react": "^2.0.16",
     "@next/font": "13.1.6",
     "@types/node": "18.14.0",
     "@types/react": "18.0.28",
@@ -18,10 +19,14 @@
     "framer-motion": "^9.0.4",
     "next": "13.1.6",
     "react": "18.2.0",
+    "react-calendly": "^4.1.1",
     "react-dom": "18.2.0",
+    "react-hook-form": "^7.43.7",
     "react-icons": "^4.7.1",
+    "react-rough-notation": "^1.0.3",
     "react-simple-typewriter": "^5.0.1",
     "react-social-icons": "^5.15.0",
+    "tailwind-scrollbar": "^3.0.0",
     "typescript": "4.9.5"
   },
   "devDependencies": {

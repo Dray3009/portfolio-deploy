@@ -1,7 +1,9 @@
 import React from 'react'
 import { SocialIcon } from 'react-social-icons'
 import {SiGmail} from 'react-icons/si'
+import {DocumentTextIcon} from '@heroicons/react/24/outline'
 import { motion } from 'framer-motion'
+import Link from 'next/link'
 
 
 type Props = {}
@@ -25,7 +27,7 @@ const Header = (props: Props) => {
         transition={{
             duration:1.5,
         }}
-        className='flex flex-row items-center'>
+        className='flex flex-row items-center space-x-6 cursor-pointer'>
               {/* icon */}
               <SocialIcon url='https://www.linkedin.com/in/andre-vassell-a5697421a/'
               fgColor='#1b1b1b' bgColor='transparent'/>
@@ -33,11 +35,31 @@ const Header = (props: Props) => {
               <SocialIcon url='https://github.com/Dray3009'
               fgColor='#1b1b1b' bgColor='transparent'/>
 
+              <Link href="./Andre_Vassell_Resume.pdf" 
+                target="blank">
+              <DocumentTextIcon className=' w-6 h-6 animate-bounce'/>
+            
+              </Link>
+
+              
+
+              
+
+
+                 
+
+              
+
+
             
 
 
 
         </motion.div>
+
+        <Link href='#contact'>
+
+        
 
         <motion.div 
         initial={{
@@ -59,9 +81,8 @@ const Header = (props: Props) => {
         }}
 
          className='flex flex-row items-center cursor-pointer p-3'>
-            <a href='mailto:andrevassell89@gmail.com'>
+            
             <SiGmail color='#EA4335' size={24}/>
-            </a>
        
             
 
@@ -77,6 +98,8 @@ const Header = (props: Props) => {
       
 
         </motion.div>
+
+        </Link>
 
         
 
